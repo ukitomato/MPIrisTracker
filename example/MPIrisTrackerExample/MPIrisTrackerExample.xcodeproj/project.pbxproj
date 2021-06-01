@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B637273B2642512D007F3C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637273A2642512D007F3C84 /* AppDelegate.swift */; };
+		B637273D2642512D007F3C84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637273C2642512D007F3C84 /* SceneDelegate.swift */; };
+		B637273F2642512D007F3C84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637273E2642512D007F3C84 /* ContentView.swift */; };
+		B63727412642512E007F3C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63727402642512E007F3C84 /* Assets.xcassets */; };
+		B63727442642512E007F3C84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63727432642512E007F3C84 /* Preview Assets.xcassets */; };
+		B63727472642512E007F3C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63727452642512E007F3C84 /* LaunchScreen.storyboard */; };
+		B63727522642512F007F3C84 /* MPIrisTrackerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63727512642512F007F3C84 /* MPIrisTrackerExampleTests.swift */; };
+		B637275D2642512F007F3C84 /* MPIrisTrackerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637275C2642512F007F3C84 /* MPIrisTrackerExampleUITests.swift */; };
+		B637277026425254007F3C84 /* MPIrisTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B637276F26425254007F3C84 /* MPIrisTracker.framework */; };
+		B637277126425254007F3C84 /* MPIrisTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B637276F26425254007F3C84 /* MPIrisTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B67361D72660DB4700D07BCA /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = B67361D62660DB4700D07BCA /* Resolver */; };
+		B67361D92660DB5500D07BCA /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67361D82660DB5500D07BCA /* AppDelegate+Injection.swift */; };
+		B67361DB2660DB7C00D07BCA /* IrisTrackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67361DA2660DB7C00D07BCA /* IrisTrackController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B637274E2642512F007F3C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B637272F2642512D007F3C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63727362642512D007F3C84;
+			remoteInfo = MPIrisTrackerExample;
+		};
+		B63727592642512F007F3C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B637272F2642512D007F3C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63727362642512D007F3C84;
+			remoteInfo = MPIrisTrackerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B637277226425254007F3C84 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B637277126425254007F3C84 /* MPIrisTracker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B63727372642512D007F3C84 /* MPIrisTrackerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPIrisTrackerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B637273A2642512D007F3C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B637273C2642512D007F3C84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B637273E2642512D007F3C84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B63727402642512E007F3C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B63727432642512E007F3C84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B63727462642512E007F3C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B63727482642512E007F3C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B637274D2642512F007F3C84 /* MPIrisTrackerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPIrisTrackerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63727512642512F007F3C84 /* MPIrisTrackerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPIrisTrackerExampleTests.swift; sourceTree = "<group>"; };
+		B63727532642512F007F3C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63727582642512F007F3C84 /* MPIrisTrackerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPIrisTrackerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B637275C2642512F007F3C84 /* MPIrisTrackerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPIrisTrackerExampleUITests.swift; sourceTree = "<group>"; };
+		B637275E2642512F007F3C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B637276A2642514D007F3C84 /* MPIrisTrackerExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPIrisTrackerExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		B637276F26425254007F3C84 /* MPIrisTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPIrisTracker.framework; path = MPIrisTrackerExample/Frameworks/MPIrisTracker.framework; sourceTree = "<group>"; };
+		B67361D82660DB5500D07BCA /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
+		B67361DA2660DB7C00D07BCA /* IrisTrackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrisTrackController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B63727342642512D007F3C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67361D72660DB4700D07BCA /* Resolver in Frameworks */,
+				B637277026425254007F3C84 /* MPIrisTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B637274A2642512F007F3C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63727552642512F007F3C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B637272E2642512D007F3C84 = {
+			isa = PBXGroup;
+			children = (
+				B63727392642512D007F3C84 /* MPIrisTrackerExample */,
+				B63727502642512F007F3C84 /* MPIrisTrackerExampleTests */,
+				B637275B2642512F007F3C84 /* MPIrisTrackerExampleUITests */,
+				B63727382642512D007F3C84 /* Products */,
+				B637276E26425254007F3C84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B63727382642512D007F3C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B63727372642512D007F3C84 /* MPIrisTrackerExample.app */,
+				B637274D2642512F007F3C84 /* MPIrisTrackerExampleTests.xctest */,
+				B63727582642512F007F3C84 /* MPIrisTrackerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B63727392642512D007F3C84 /* MPIrisTrackerExample */ = {
+			isa = PBXGroup;
+			children = (
+				B637273A2642512D007F3C84 /* AppDelegate.swift */,
+				B67361D82660DB5500D07BCA /* AppDelegate+Injection.swift */,
+				B637273C2642512D007F3C84 /* SceneDelegate.swift */,
+				B637273E2642512D007F3C84 /* ContentView.swift */,
+				B63727402642512E007F3C84 /* Assets.xcassets */,
+				B63727452642512E007F3C84 /* LaunchScreen.storyboard */,
+				B63727482642512E007F3C84 /* Info.plist */,
+				B63727422642512E007F3C84 /* Preview Content */,
+				B637276A2642514D007F3C84 /* MPIrisTrackerExample-Bridging-Header.h */,
+				B67361DA2660DB7C00D07BCA /* IrisTrackController.swift */,
+			);
+			path = MPIrisTrackerExample;
+			sourceTree = "<group>";
+		};
+		B63727422642512E007F3C84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B63727432642512E007F3C84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B63727502642512F007F3C84 /* MPIrisTrackerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B63727512642512F007F3C84 /* MPIrisTrackerExampleTests.swift */,
+				B63727532642512F007F3C84 /* Info.plist */,
+			);
+			path = MPIrisTrackerExampleTests;
+			sourceTree = "<group>";
+		};
+		B637275B2642512F007F3C84 /* MPIrisTrackerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B637275C2642512F007F3C84 /* MPIrisTrackerExampleUITests.swift */,
+				B637275E2642512F007F3C84 /* Info.plist */,
+			);
+			path = MPIrisTrackerExampleUITests;
+			sourceTree = "<group>";
+		};
+		B637276E26425254007F3C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B637276F26425254007F3C84 /* MPIrisTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B63727362642512D007F3C84 /* MPIrisTrackerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63727612642512F007F3C84 /* Build configuration list for PBXNativeTarget "MPIrisTrackerExample" */;
+			buildPhases = (
+				B63727332642512D007F3C84 /* Sources */,
+				B63727342642512D007F3C84 /* Frameworks */,
+				B63727352642512D007F3C84 /* Resources */,
+				B637277226425254007F3C84 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPIrisTrackerExample;
+			packageProductDependencies = (
+				B67361D62660DB4700D07BCA /* Resolver */,
+			);
+			productName = MPIrisTrackerExample;
+			productReference = B63727372642512D007F3C84 /* MPIrisTrackerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B637274C2642512F007F3C84 /* MPIrisTrackerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63727642642512F007F3C84 /* Build configuration list for PBXNativeTarget "MPIrisTrackerExampleTests" */;
+			buildPhases = (
+				B63727492642512F007F3C84 /* Sources */,
+				B637274A2642512F007F3C84 /* Frameworks */,
+				B637274B2642512F007F3C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B637274F2642512F007F3C84 /* PBXTargetDependency */,
+			);
+			name = MPIrisTrackerExampleTests;
+			productName = MPIrisTrackerExampleTests;
+			productReference = B637274D2642512F007F3C84 /* MPIrisTrackerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B63727572642512F007F3C84 /* MPIrisTrackerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63727672642512F007F3C84 /* Build configuration list for PBXNativeTarget "MPIrisTrackerExampleUITests" */;
+			buildPhases = (
+				B63727542642512F007F3C84 /* Sources */,
+				B63727552642512F007F3C84 /* Frameworks */,
+				B63727562642512F007F3C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B637275A2642512F007F3C84 /* PBXTargetDependency */,
+			);
+			name = MPIrisTrackerExampleUITests;
+			productName = MPIrisTrackerExampleUITests;
+			productReference = B63727582642512F007F3C84 /* MPIrisTrackerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B637272F2642512D007F3C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B63727362642512D007F3C84 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					B637274C2642512F007F3C84 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B63727362642512D007F3C84;
+					};
+					B63727572642512F007F3C84 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B63727362642512D007F3C84;
+					};
+				};
+			};
+			buildConfigurationList = B63727322642512D007F3C84 /* Build configuration list for PBXProject "MPIrisTrackerExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B637272E2642512D007F3C84;
+			packageReferences = (
+				B67361D52660DB4700D07BCA /* XCRemoteSwiftPackageReference "Resolver" */,
+			);
+			productRefGroup = B63727382642512D007F3C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B63727362642512D007F3C84 /* MPIrisTrackerExample */,
+				B637274C2642512F007F3C84 /* MPIrisTrackerExampleTests */,
+				B63727572642512F007F3C84 /* MPIrisTrackerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B63727352642512D007F3C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63727472642512E007F3C84 /* LaunchScreen.storyboard in Resources */,
+				B63727442642512E007F3C84 /* Preview Assets.xcassets in Resources */,
+				B63727412642512E007F3C84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B637274B2642512F007F3C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63727562642512F007F3C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B63727332642512D007F3C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67361D92660DB5500D07BCA /* AppDelegate+Injection.swift in Sources */,
+				B67361DB2660DB7C00D07BCA /* IrisTrackController.swift in Sources */,
+				B637273B2642512D007F3C84 /* AppDelegate.swift in Sources */,
+				B637273D2642512D007F3C84 /* SceneDelegate.swift in Sources */,
+				B637273F2642512D007F3C84 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63727492642512F007F3C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63727522642512F007F3C84 /* MPIrisTrackerExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63727542642512F007F3C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B637275D2642512F007F3C84 /* MPIrisTrackerExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B637274F2642512F007F3C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63727362642512D007F3C84 /* MPIrisTrackerExample */;
+			targetProxy = B637274E2642512F007F3C84 /* PBXContainerItemProxy */;
+		};
+		B637275A2642512F007F3C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63727362642512D007F3C84 /* MPIrisTrackerExample */;
+			targetProxy = B63727592642512F007F3C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B63727452642512E007F3C84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63727462642512E007F3C84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B637275F2642512F007F3C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B63727602642512F007F3C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B63727622642512F007F3C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MPIrisTrackerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 85VEMKXW92;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MPIrisTrackerExample/Frameworks",
+				);
+				INFOPLIST_FILE = MPIrisTrackerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ukitomato.MPIrisTrackerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MPIrisTrackerExample/MPIrisTrackerExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B63727632642512F007F3C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MPIrisTrackerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 85VEMKXW92;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MPIrisTrackerExample/Frameworks",
+				);
+				INFOPLIST_FILE = MPIrisTrackerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ukitomato.MPIrisTrackerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MPIrisTrackerExample/MPIrisTrackerExample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B63727652642512F007F3C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85VEMKXW92;
+				INFOPLIST_FILE = MPIrisTrackerExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ukitomato.MPIrisTrackerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPIrisTrackerExample.app/MPIrisTrackerExample";
+			};
+			name = Debug;
+		};
+		B63727662642512F007F3C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85VEMKXW92;
+				INFOPLIST_FILE = MPIrisTrackerExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ukitomato.MPIrisTrackerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPIrisTrackerExample.app/MPIrisTrackerExample";
+			};
+			name = Release;
+		};
+		B63727682642512F007F3C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85VEMKXW92;
+				INFOPLIST_FILE = MPIrisTrackerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ukitomato.MPIrisTrackerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MPIrisTrackerExample;
+			};
+			name = Debug;
+		};
+		B63727692642512F007F3C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85VEMKXW92;
+				INFOPLIST_FILE = MPIrisTrackerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ukitomato.MPIrisTrackerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MPIrisTrackerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B63727322642512D007F3C84 /* Build configuration list for PBXProject "MPIrisTrackerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B637275F2642512F007F3C84 /* Debug */,
+				B63727602642512F007F3C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63727612642512F007F3C84 /* Build configuration list for PBXNativeTarget "MPIrisTrackerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63727622642512F007F3C84 /* Debug */,
+				B63727632642512F007F3C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63727642642512F007F3C84 /* Build configuration list for PBXNativeTarget "MPIrisTrackerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63727652642512F007F3C84 /* Debug */,
+				B63727662642512F007F3C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63727672642512F007F3C84 /* Build configuration list for PBXNativeTarget "MPIrisTrackerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63727682642512F007F3C84 /* Debug */,
+				B63727692642512F007F3C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B67361D52660DB4700D07BCA /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B67361D62660DB4700D07BCA /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B67361D52660DB4700D07BCA /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B637272F2642512D007F3C84 /* Project object */;
+}
