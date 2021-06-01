@@ -1,0 +1,26 @@
+{
+	DTPlatformVersion = "13.2";
+	DTCompiler = "com.apple.compilers.llvm.clang.1_0";
+	"CFBundleInfoDictionaryVersion" = "6.0";
+	DTPlatformBuild = 17B102;
+	CFBundleVersion = 1;
+	DTXcodeBuild = 11C29;
+	CFBundleExecutable = Closures;
+	UIDeviceFamily = (
+		1,
+		2,
+	);
+	CFBundleName = MPIrisTracker;
+	DTXcode = 1130;
+	"CFBundleSupportedPlatforms" = (
+		iPhoneOS,
+	);
+	MinimumOSVersion = "9.0";
+	CFBundlePackageType = FMWK;
+	BuildMachineOSBuild = 19C57;
+	DTPlatformName = iphoneos;
+	DTSDKName = "iphoneos13.2";
+	DTSDKBuild = 17B102;
+	"CFBundleDevelopmentRegion" = en;
+	"CFBundleShortVersionString" = "0.1";
+}
