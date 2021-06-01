@@ -1,6 +1,6 @@
 MPIrisTracker
 ====
-- An iOS Framework that enables developers to use iris tracking & capturing face mesh based on [MediaPipe](https://mediapipe.dev/).
+- An iOS Framework that enables developers to use iris detection & capturing face mesh based on [MediaPipe](https://mediapipe.dev/).
 
 ## Key Features
 - enable to use [MediaPipe Iris Detection](https://google.github.io/mediapipe/solutions/iris.html) in Swift App
