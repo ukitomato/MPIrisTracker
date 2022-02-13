@@ -48,7 +48,7 @@ To try the example project, simply clone this repository and open the `examples`
 ### Compile
 1. Copy files in `./source` folder to MediaPipe installation path (e.g. `MEDIAPIPE_PATH`/mediapipe/MPIrisTracker/).
 2. `cd MEDIAPIPE_PATH`
-3. `build -c opt --config=ios_arm64 mediapipe/MPIrisTracker:MPIrisTracker`
+3. `bazel build -c opt --config=ios_arm64 mediapipe/MPIrisTracker:MPIrisTracker`
 
 ## Reference
 - [MediaPipe](https://google.github.io/mediapipe/)
